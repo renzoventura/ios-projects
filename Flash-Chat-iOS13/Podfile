@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'Flash Chat iOS13' do
+
+  # Pods for Flash Chat iOS13
+  
+  pod 'CLTypingLabel', '~> 0.4.0'
+  pod 'Firebase', :modular_headers => true
+  pod 'FirebaseCore', :modular_headers => true
+  pod 'GoogleUtilities', :modular_headers => true
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
+  $RNFirebaseAsStaticFramework = true
+end
